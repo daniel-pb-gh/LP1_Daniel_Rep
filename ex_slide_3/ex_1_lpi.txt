@@ -1,0 +1,6 @@
+1) Tipos de dados são classificações dos dados,
+se assemelham ao conceito matemático de conjuntos.
+2) Os tipos são usados de diversas formas, e existem
+diferentes tipos de tipagem. Algumas aplicações dos tipos
+podem ser: evitar operações inválidas (como um int com uma string)
+e otimizar espaço (quando a tipagem é manualmente inserida).

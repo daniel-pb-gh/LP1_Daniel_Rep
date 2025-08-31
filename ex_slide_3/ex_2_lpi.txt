@@ -1,0 +1,16 @@
+1) acredito que dará erro, pois se trata de uma tentatativa
+de somar um número inteiro com uma cadeia de caracteres,
+que são de tipos diferentes, sem relação entre eles, logo,
+não haverá promoção ao tipo mais abrangente, pois os dois
+tipos não são relacionados.
+2) os tipos dos operandos são: inteiro e cadeia de caracteres.
+3)rm_later.c: In function ‘main’:
+rm_later.c:3:30: error: invalid operands to binary - (have ‘int’ and ‘char *’)
+    3 |     printf("Soma = %d\n", 100-"10");
+      |                              ^
+      |                              |
+      |                              char *
+
+3) isso significa que o compilador não pôde realizar a operação,
+ pois um é um número inteiro, e o outro, um ponteiro (que aponta pra uma cadeia de caracteres)
+ 
